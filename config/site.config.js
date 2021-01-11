@@ -12,7 +12,7 @@ const config = {
   site_name: 'Sooi Noldus',
 
   // Your website's description, used for favicon meta tags
-  site_description: 'Sooi Noldus biografie ',
+  site_description: 'Sooi Noldus biografie',
 
   // Your website's URL, used for sitemap
   site_url: 'http://www.sooinoldus.be',
