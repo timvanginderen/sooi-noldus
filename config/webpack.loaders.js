@@ -28,7 +28,12 @@ const js = {
         presets: ['@babel/preset-env'],
       },
     },
-    'eslint-loader',
+    {
+      loader: 'eslint-loader',
+      options: {
+        fix: true,
+      },
+    },
   ],
 };
 
