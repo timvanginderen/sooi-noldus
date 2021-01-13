@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: http://www.sooinoldus.be/sitemap.xml
+Host: www.sooinoldus.be
