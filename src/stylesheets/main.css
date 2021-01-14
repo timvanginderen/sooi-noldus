@@ -2208,6 +2208,7 @@ button,
   text-transform: uppercase; }
   #menu ul a, #menu ul span {
     border-bottom: 0;
+    text-decoration: none;
     color: inherit;
     cursor: pointer;
     display: block;
