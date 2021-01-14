@@ -1914,6 +1914,9 @@ button,
     width: 2em; }
   #search form input[type="text"] {
     padding-right: 2.75em; }
+  #search img {
+    width: 100px;
+    height: auto; }
 
 #sidebar {
   -moz-flex-grow: 0;
