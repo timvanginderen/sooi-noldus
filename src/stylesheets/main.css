@@ -2084,6 +2084,8 @@ button,
     -ms-flex: 1;
     flex: 1;
     margin-bottom: 0; }
+  #header a {
+    text-decoration: none; }
   #header .logo {
     border-bottom: 0;
     color: inherit;
