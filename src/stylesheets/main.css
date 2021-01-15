@@ -1914,6 +1914,9 @@ button,
     width: 2em; }
   #search form input[type="text"] {
     padding-right: 2.75em; }
+  #search img {
+    width: 100px;
+    height: auto; }
 
 #sidebar {
   -moz-flex-grow: 0;
@@ -1928,7 +1931,9 @@ button,
   -webkit-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   -ms-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   transition: margin-left 0.5s ease, box-shadow 0.5s ease;
-  background-color: #f5f6f7;
+  background:url('../images/menu_sooi.png') #f5f6f7;
+  background-repeat: no-repeat;
+  background-position: 0px 75px;
   font-size: 0.9em;
   position: relative;
   width: 26em; }
@@ -2084,6 +2089,8 @@ button,
     -ms-flex: 1;
     flex: 1;
     margin-bottom: 0; }
+  #header a {
+    text-decoration: none; }
   #header .logo {
     border-bottom: 0;
     color: inherit;
@@ -2188,7 +2195,8 @@ button,
 /* Footer */
 #footer .copyright {
   color: #9fa3a6;
-  font-size: 0.9em; }
+  font-size: 0.9em;
+  text-align: center; }
   #footer .copyright a {
     color: inherit; }
 
@@ -2208,6 +2216,7 @@ button,
   text-transform: uppercase; }
   #menu ul a, #menu ul span {
     border-bottom: 0;
+    text-decoration: none;
     color: inherit;
     cursor: pointer;
     display: block;
